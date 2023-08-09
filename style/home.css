@@ -248,8 +248,7 @@ main {
   height: 100vh;
   z-index: -1;
   width: 100%;
-  background: url(/Code-Fusion-Agency/assets/images/bcgr.jpg) center/cover
-    no-repeat;
+  background: url(../assets/images/bcgr.jpg) center/cover no-repeat;
 }
 
 .about {
