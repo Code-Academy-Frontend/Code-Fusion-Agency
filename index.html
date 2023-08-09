@@ -1,12 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/home.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/home.css" />
+    <link rel="stylesheet" href="style/home.css" />
     <title>Code Fusion Agency</title>
-</head>
-<body>
-    <h1>Hi.</h1>
-</body>
+  </head>
+  <body>
+    <nav class="nav-center">
+      <div class="nav-header">
+        <img src="assets/svg/logo.svg" alt="" class="logo" />
+        <button class="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <ul class="links">
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li>
+          <a href="about.html">about</a>
+        </li>
+        <li>
+          <a href="projects.html">projects</a>
+        </li>
+        <li>
+          <a href="portfolio.html">porfolio</a>
+        </li>
+        <li>
+          <a href="contact.html">contact</a>
+        </li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.facebook.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.github.com">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main id="home">
+      <article class="about">
+        <div class="btn-container">
+          <button class="tab-btn active" data-id="wdesign">Web Design</button>
+          <button class="tab-btn" data-id="wsoftware">Web Software Dev</button>
+          <button class="tab-btn" data-id="wmaintenance">
+            Website Maintenance
+          </button>
+        </div>
+        <article class="about-content">
+          <div class="content active" id="wdesign">
+            <h4>Web Design</h4>
+            <p>
+              Elevate your online presence with our top-notch web design
+              services tailored to meet your unique needs. Our team of skilled
+              designers is committed to transforming your vision into a
+              captivating and functional website. We specialize in crafting
+              user-friendly interfaces that resonate with your target audience
+              while ensuring seamless navigation and responsiveness across
+              devices. By merging aesthetic finesse with cutting-edge
+              technologies like HTML, CSS, and JavaScript, we create a
+              harmonious blend of design and functionality. Whether you're
+              launching a new brand or looking to revamp your existing website,
+              our web design services focus on translating your ideas into an
+              immersive digital experience that leaves a lasting impression.
+              Partner with us to unlock the potential of a striking and
+              effective online platform that drives engagement, conversions, and
+              business growth.
+            </p>
+          </div>
+
+          <div class="content" id="wsoftware">
+            <h4>Web Software Dev</h4>
+            <p>
+              Embark on a digital transformation journey with our exceptional
+              web software development services tailored to empower your
+              business. Our seasoned team of developers specializes in crafting
+              custom web solutions that align seamlessly with your objectives.
+              From intuitive user interfaces to complex backend systems, we
+              leverage the latest technologies to create robust, scalable, and
+              secure web applications. Through meticulous planning and agile
+              methodologies, we ensure that your project is delivered on time
+              and within budget. Whether it's e-commerce, content management, or
+              innovative SaaS solutions, our expertise spans a wide range of
+              industries. Collaborate with us to turn your concepts into
+              functional realities, driving efficiency, enhancing user
+              experiences, and gaining a competitive edge in the digital
+              landscape. Your success is our priority, and our web software
+              development services are designed to elevate your online
+              capabilities and maximize your impact.
+            </p>
+          </div>
+
+          <div class="content" id="wmaintenance">
+            <h4>Website Maintenance</h4>
+            <p>
+              Streamline your online operations and ensure your website's peak
+              performance with our comprehensive website maintenance services.
+              We understand that a website is a dynamic asset that requires
+              constant care to stay secure, up-to-date, and optimized. Our
+              dedicated team of experts offers a range of services, from regular
+              content updates and security patches to monitoring site speed and
+              functionality. By entrusting us with the maintenance of your
+              website, you can focus on your core business while we handle the
+              technical intricacies. Our tailored maintenance plans cater to
+              businesses of all sizes, ensuring that your online presence
+              remains a reliable and engaging platform for your audience.
+              Partner with us to safeguard your investment, prevent downtime,
+              and provide an exceptional user experience, all while staying
+              ahead in the ever-evolving digital landscape.
+            </p>
+          </div>
+        </article>
+      </article>
+    </main>
+    <article class="info article-center">
+      <div class="info-container">
+        <div class="info-content">
+          <h4 class="info-h">
+            we are <span class="red">code</span> fusion agency
+          </h4>
+          <p class="info-p">
+            We design and develop websites, apps and digital experiences that
+            help our clients grow, innovate, and transform. We listen, learn and
+            understand before we build. We identify your goals together, then
+            use our expertise to find that sweet spot of realistic and
+            impactful.
+          </p>
+        </div>
+        <div class="customers">
+          <img src="./assets/svg/pepsico-dark.svg" alt="" />
+          <img src="./assets/svg/chipotle-dark.svg" alt="" />
+          <img src="./assets/svg/delta-dark.svg" alt="" />
+          <img src="./assets/svg/university-light.svg" alt="" />
+          <img src="./assets/images/gofundme.webp" alt="" />
+        </div>
+      </div>
+    </article>
+    <!-- back to top -->
+    <div class="top">
+      <a href="#home"><i class="fa-solid fa-code"></i></a>
+    </div>
+    <footer class="footer">
+      <p>
+        copyright &copy; all rights reserved, Code Fusion Agency.
+        <span id="date"></span>
+      </p>
+    </footer>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/4967da6afe.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- javascript -->
+    <script src="js/home.js"></script>
+  </body>
 </html>
