@@ -358,7 +358,7 @@ main {
 
 .customers {
   width: 100%;
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: space-around;
 }
