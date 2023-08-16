@@ -258,7 +258,7 @@ main {
   width: 60%;
 }
 
-/* Portfolio */
+/* Tea */
 
 .portfolio-container {
   margin: 60px 0 20px 0;
@@ -444,7 +444,7 @@ main {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .portfolio-container {
     display: grid;
     grid-template-columns: auto auto;
